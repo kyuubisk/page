@@ -1,0 +1,65 @@
+/*  THUMBNAIL (PREJDENIE S MYŠOU ZOBRAZÍ SA GLOW) */
+.pic {
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+img:hover.glow {
+    box-shadow: 0 0 6px 5px rgba(173,121,7,0.82);
+}
+
+.image { 
+   position: relative; 
+   width: 100%;
+}
+/* TEXT S BLACK POZADÍM KTORÝ PREKRÝVA OBRÁZOK */ 
+
+
+
+h3 {
+	position: absolute;
+	top: 22px;
+	left: -666px;
+	width: 100%;
+}
+
+h3 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0);
+   background: rgba(0,0,0,0.48);
+   padding: 10px; 
+}
+
+.repair {
+	border: 0px;
+	border-radius: 0px;
+	padding: 0px;
+	box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+/*
+
+.spacer {
+   padding: 0 50px;
+}
+
+.spacert {
+ padding: 50 0;
+ margin-top: 50
+}
+
+*/
+
+.thumbnail_image {
+	margin: 20px;
+	float: left
+}
+
+.thumbnail_picture {
+	margin: 20px;
+	float: right;
+}
+
